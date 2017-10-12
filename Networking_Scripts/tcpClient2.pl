@@ -1,6 +1,5 @@
 #!/usr/bin/perl
 #tcpclient.pl
-#Group names: Dean O' Keeffe, Brian Ryan, Paul O' Brien
 
 use IO::Socket::INET;
 
