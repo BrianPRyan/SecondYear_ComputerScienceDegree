@@ -1,0 +1,72 @@
+/*Brian Ryan E.A.D Assignment 2016*/
+body
+{
+min-height:900px;
+min-width:1850px;
+background:black;
+}
+nav
+{
+padding-top: 50px;
+padding-left:50px;
+}
+nav li 
+{
+font-size:25px;
+width:150px;
+height:40px;
+display:inline;
+padding-left:500px;
+color:red;
+}
+nav ol
+{
+list-style-type:none;
+letter-spacing:3px;
+}
+a
+{
+text-decoration:none;
+color:black;
+}
+a:hover
+{
+/*font-size:32px;*/
+color:#2BBDD8;
+}
+#wrapper
+{
+width:100%;
+height:600px; 
+background:#2BBDD8;
+border-radius:40px;
+text-align: center;
+color:red;
+font-size:22px;
+font-family:cambria;
+}
+#header
+{
+width:100%;
+height:170px; 
+background:white;
+border-radius:40px;
+}
+#footer
+{
+width:100%;
+height:170px; 
+background:white;
+border-radius:40px;
+}
+iframe
+{
+padding-top:50px;
+padding-left:50px;  
+}
+p
+{
+margin:0 auto;
+}
+
+

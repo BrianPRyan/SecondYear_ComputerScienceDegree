@@ -1,0 +1,80 @@
+<!DOCTYPE html> <!-- Brian Ryan E.A.D Assignment 2016 -->
+<html>
+    <head>
+        <title>ICT in Education</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="login.css">
+    </head>
+    <body>
+        <div id="header">
+            <br><br><h1 style="text-align: center;margin:0 auto;">ICT CONFERENCE REGISTER AND LOG IN</h1>
+            <!--<nav id = "nav">
+                    <ol type="I">	
+		    <li><a href="landing.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+		    <li><a href="speakers.html">SPEAKERS</a></li>
+                    <li><a href="workshops.html">WORKSHOPS</a></li>
+		    <li><a href="schedule.html">SCHEDULE</a></li>
+                    <li><a href="exhibitors.html">EXHIBITORS</a></li>
+		    </ol>
+            </nav>-->
+        </div>
+        <div id="wrapper">
+            <div id = "wrapperI"> 
+                <div id="space">
+                    <div id="title"><h1>ADMINISTRATORS</h1></div>
+                </div>
+                    <div id="Areg">
+                        <h1>PLEASE REGISTER</h1>
+                            <form action="ARegister" method ="POST">
+                                <input type="text" name="name" placeholder="Name" required><br>
+                                <input type = "email" name = "email_address" placeholder = "Please enter your email" required><br>
+                                <input type = "tel" name = "phone" placeholder = "Phone:087-123-4567" required><br>
+                                <input type="text" name="username" placeholder="Username" required><br>
+                                <input type="password" name="password" placeholder="Password" required><br>
+                                <input type="submit" value="Submit"/>
+                            </form>
+                    </div>
+                        <div id="Alogin">   
+                            <h1>PLEASE LOG IN</h1>
+                                <form action="ALogin" method ="GET">
+                                    <input type="text" name="username" placeholder="Username" required><br>
+                                    <input type="password" name="password" placeholder="Password" required><br>
+                                    <input type="submit" value="Submit"/>
+                                </form>
+                        </div>
+            </div>
+            <div id = "wrapperII"> 
+                <div id="spaceI">
+                    <div id="titleI"><h1>ATTENDEES</h1></div>
+                </div>
+                    <div id="Preg">
+                        <h1>PLEASE REGISTER</h1>
+                            <form action="PRegister" method ="POST">
+                                <input type="text" name="name" placeholder="Name" required><br>
+                                <input type = "email" name = "email_address" placeholder = "Please enter your email" required><br>
+                                <input type = "tel" name = "phone" placeholder = "Phone:087-123-4567" required><br>
+                                <input type="text" name="username" placeholder="Username" required><br>
+                                <input type="password" name="password" placeholder="Password" required><br>
+                                <input type="submit" value="Submit"/>
+                            </form>
+                    </div>
+                        <div id="Plogin">   
+                            <h1>PLEASE LOG IN</h1>
+                                <form action="PLogin" method ="GET">
+                                    <input type="text" name="username" placeholder="Username" required><br>
+                                    <input type="password" name="password" placeholder="Password" required><br>
+                                    <input type="submit" value="Submit"/>
+                                </form>
+                        </div> 
+            </div>
+        </div>
+        <div id="footer">
+            <iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.RyanDesigns.com&amp;layout=standard&amp;
+                show_faces=true&amp;action=like&amp;colorscheme=light&amp" style="overflow:hidden;width:250px;height:20px;float:left;" scrolling="no" frameborder="0" allowTransparency="true">
+		<a href="http://www.trivoo.net" class="fbook">www.trivoo.net</a>
+            </iframe>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html> <!-- Brian Ryan E.A.D Assignment 2016 -->
+<html>
+    <head>
+        <title>ICT in Education</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="writeData.css">
+    </head>
+    <body>
+        <div id="header">
+            <nav id = "nav">
+                <ol type="I">	
+		    <li><a href="landing.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="speakers.html">SPEAKERS</a></li>
+		    <li><a href="workshops.html">WORKSHOPS</a></li>
+		    <li><a href="login.html">REGISTER/LOGIN</a></li>
+		</ol>
+            </nav>
+        </div>
+        <div id="wrapper">
+              <div id="form">
+                <br><br><h1>&nbsp;&nbsp;&nbsp;&nbsp;PLEASE ENTER EXHIBITOR INFO HERE</h1><br><br><br>
+                    <form action="Exhibitors" method ="POST">
+                        <input type="text" name="name" placeholder="Company Name" required><br>
+                        <input type = "text" name = "product" placeholder = "Main Product of Exhibit" required><br>
+                        <input id="dob" name="date" type="date"><br>
+                        <input type = "text" name = "location" placeholder = "Location of Exhibit" required><br>
+                        <input type="submit" value="Submit"/>
+                    </form>   
+            </div>    
+            <div id="filler">
+                <br><br><br><br><br><br><br><br><br><br>
+                <form action="Gexhibitors" method="GET">
+                <button type="submit">Get Exhibitor details</button>
+                </form>
+            </div> 
+        </div>
+        <div id="footer">
+            <iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.RyanDesigns.com&amp;layout=standard&amp;
+                show_faces=true&amp;action=like&amp;colorscheme=light&amp" style="overflow:hidden;width:250px;height:20px;float:left;" scrolling="no" frameborder="0" allowTransparency="true">
+		<a href="http://www.trivoo.net" class="fbook">www.trivoo.net</a>
+            </iframe>
+        </div>  
+    </body>
+</html>

@@ -1,0 +1,47 @@
+/*Brian Ryan E.A.D Assignment 2016*/
+a
+{
+text-decoration:underline;
+color:black;
+}
+a:hover
+{
+color:white;
+}
+h1
+{
+font-family:cambria;
+text-align:center;
+font-size:50px;
+color:white;   
+}
+#spacer
+{
+width:100%;
+height:350px;    
+}
+#spacerI
+{
+width:100%;
+height:350px;    
+}
+.center
+{
+text-align:center;
+padding-right:200px;
+}
+#logo
+{
+width:50%;
+height:300px; 
+padding:20px 20px;
+margin:25px 25px 25px 25px;
+}
+#logoBottom
+{
+width:50%;
+height:300px; 
+margin:25px 25px 25px 25px;
+padding-left:900px;
+padding-top: 80px;
+}
