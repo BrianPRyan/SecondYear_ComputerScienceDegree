@@ -1,6 +1,6 @@
 #!/usr/bin/perl
 #tcpserver.pl
-#Group names: Dean O' Keeffe, Brian Ryan, Paul O' Brien
+
 use IO::Socket::INET;
 
 # flush after every write
